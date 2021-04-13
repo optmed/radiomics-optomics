@@ -1,2 +1,2 @@
 # Optomics
-Radiomic analysis of radiomic and optical signatures from breast lumpectomy specimens
+Automated diagnostic classification of breast lumpectomy specimens using radiomic and optical signatures.
