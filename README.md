@@ -1,5 +1,4 @@
 # Radiomics-Optomics
-Automated diagnostic classification of breast lumpectomy specimens using radiomic and optical signatures.
 
 Comma-separated value (CSV) files, classification pipeline source code, and a PyRadiomics parameter file documenting all feature quantification settings will be uploaded here to accompany our manuscript titled "Automated diagnostic assessment of breast lumpectomy tissues using radiomic and optomic signatures."
 
