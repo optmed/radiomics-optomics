@@ -1,7 +1,7 @@
 # Radiomics-Optomics
 Streeter, S.S., Hunt, B., Zuurbier, R.A. et al. Developing diagnostic assessment of breast lumpectomy tissues using radiomic and optical signatures. _Sci Rep_ 11, 21832 (2021).
 
-[Journal Link](https://doi.org/10.1038/s41598-021-01414-z) | [Cite](https://github.com/optmed/radiomics-optomics/edit/main/README.md?plain=1#L50)
+[Journal Link](https://doi.org/10.1038/s41598-021-01414-z)
 
 # Issues
 Please report all issues on the public forum.
