@@ -1,6 +1,10 @@
 # Radiomics-Optomics
 
-Comma-separated value (CSV) files, classification pipeline source code, and a PyRadiomics parameter file documenting all feature quantification settings will be uploaded here to accompany our manuscript titled "Automated diagnostic assessment of breast lumpectomy tissues using radiomic and optomic signatures"
+Streeter, S.S., Hunt, B., Zuurbier, R.A. et al. Developing diagnostic assessment of breast lumpectomy tissues using radiomic and optical signatures. _Sci Rep_ 11, 21832 (2021).
+
+[Journal Link](https://doi.org/10.1038/s41598-021-01414-z) | [Cite](https://github.com/optmed/radiomics-optomics/edit/main/README.md?plain=1#L50)
+
+Comma-separated value (CSV) files, classification pipeline source code, and a PyRadiomics parameter file documenting all feature quantification settings will be uploaded here to accompany our manuscript titled ""
 
 Author list:
 Samuel S. Streeter1, Brady Hunt1, Rebecca A. Zuurbier2,4, Wendy A. Wells3,4, Keith D. Paulsen1,4, and Brian W. Pogue1,4
