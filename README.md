@@ -3,15 +3,15 @@ Streeter, S.S., Hunt, B., Zuurbier, R.A. et al. Developing diagnostic assessment
 
 [Journal Link](https://doi.org/10.1038/s41598-021-01414-z)
 
-![Radiomics-Optomics of Breast Cancer](https://github.com/optmed/radiomics-optomics/blob/main/assets/Supplementary_Figure_2.tif?raw=true)
+![Radiomics-Optomics of Breast Cancer](/assets/Supplementary_Figure_2.tif?raw=true)
 
-# Issues
+## Issues
 Please report all issues on the public forum.
 
-# License
+## License
 © [Optics in Medicine Lab](https://sites.dartmouth.edu/optmed/) - This code is made available under the GPLv3 License and is available for non-commercial academic purposes.
 
-# Reference
+## Reference
 If you find our work useful for your research, feel free to adapt our code and please consider citing our paper:
 <pre><code>@article{streeter_radiomics_optomics_2021,
 	title = {Developing diagnostic assessment of breast lumpectomy tissues using radiomic and optical signatures},
