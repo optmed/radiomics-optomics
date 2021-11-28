@@ -3,7 +3,7 @@ Streeter, S.S., Hunt, B., Zuurbier, R.A. et al. Developing diagnostic assessment
 
 [Journal Link](https://doi.org/10.1038/s41598-021-01414-z)
 
-![Radiomics-Optomics of Breast Cancer](/assets/Supplementary_Figure_2.tif?raw=true)
+![Radiomics-Optomics of Breast Cancer](https://github.com/optmed/radiomics-optomics/blob/main/assets/Supplementary_Figure_2.tif)
 
 ## Issues
 Please report all issues on the public forum.
