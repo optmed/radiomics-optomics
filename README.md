@@ -4,6 +4,7 @@ Streeter, S.S., Hunt, B., Zuurbier, R.A. et al. Developing diagnostic assessment
 [Journal Link](https://doi.org/10.1038/s41598-021-01414-z)
 
 <p align="center">
+  <b>Supplementary Figure 2</b><br>
   <img height="65%" width="65%" src="assets/Supplementary_Figure_2.png">
 </p>
 
