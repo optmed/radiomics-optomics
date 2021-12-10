@@ -1,0 +1,56 @@
+# S. Streeter
+# 3/13/2021
+# Example parameters file for PyRadiomics, taken directly from:
+# https://raw.githubusercontent.com/AIM-Harvard/pyradiomics/master/examples/exampleSettings/Params.yaml
+
+# See here for great explanation of what needs to be in this file:
+# https://pyradiomics.readthedocs.io/en/latest/customization.html?highlight=precrop#parameter-file
+
+# Use this for feature extraction so that it is thoroughly documented. Note that bin width needs to be
+# adjusted for micro-CT (linear attenuation coefficient, 1/cm) and for optical (calibrated reflectance, unitless)
+
+#-----------------------------------------------------------------------------------------------------
+
+setting:
+  binWidth: 0.005              # <--S. Streeter, set calibrated reflectance bin width (unitless) for optical data
+  label: 1                    # Mask must contain 1s, convert all non-NaN pixels to 1 for mask
+  interpolator: 'sitkBSpline' # This is an enumerated value, here None is not allowed
+  resampledPixelSpacing:      # This disables resampling, as it is interpreted as None, to enable it, specify spacing in x, y, z as [x, y , z]
+  weightingNorm:              # If no value is specified, it is interpreted as None
+
+# Image types to use: "Original" for unfiltered image, for possible filters, see documentation.
+imageType:
+  Original: {}                # for dictionaries / mappings, None values are not allowed, '{}' is interpreted as an empty dictionary
+
+# Featureclasses, from which features must be calculated. If a featureclass is not mentioned, no features are calculated
+# for that class. Otherwise, the specified features are calculated, or, if none are specified, all are calculated (excluding redundant/deprecated features).
+featureClass:
+  firstorder: 
+  glcm:  # Disable SumAverage by specifying all other GLCM features available
+    - 'Autocorrelation'
+    - 'ClusterProminence'
+    - 'ClusterShade'
+    - 'ClusterTendency'
+    - 'Contrast'
+    - 'Correlation'
+    - 'DifferenceAverage'
+    - 'DifferenceEntropy'
+    - 'DifferenceVariance'
+    - 'Id'
+    - 'Idm'
+    - 'Idmn'
+    - 'Idn'
+    - 'Imc1'
+    - 'Imc2'
+    - 'InverseVariance'
+    - 'JointAverage'
+    - 'JointEnergy'
+    - 'JointEntropy'
+    - 'MCC'
+    - 'MaximumProbability'
+    - 'SumEntropy'
+    - 'SumSquares'
+  glrlm: 
+  glszm:
+  gldm:
+  ngtdm:
